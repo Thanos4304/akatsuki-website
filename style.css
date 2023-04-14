@@ -1,0 +1,65 @@
+body {
+	font-family: 'Courier New', monospace;
+	margin: 0;
+	padding: 0;
+  }
+header {
+	background-color: #000000;
+	color: #f72424;
+	padding: 10px;
+	text-align: center;
+  }
+  h1 {
+	margin: 0;
+  }
+  h2 {
+	margin: 10px;
+	text-align: center;
+ }
+  nav {
+	display: flex;
+	justify-content: flex-end;
+  }
+  nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  nav li {
+	margin: 0 10px;
+  }
+  nav a {
+	display: block;
+	padding: 10px;
+	color: #ff0000;
+  }
+  nav a:hover {
+	background-color: #000000;
+	color: rgb(255, 18, 18);
+  }
+  .image-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  .image-container img {
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+	margin: 10px;
+  }
+  /* .image-container img:hover{
+	object-fit: fill;
+  } */
+  .name {
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight: bold;
+	margin-top: 10px;
+	text-align: center;
+  }
+  body {
+	background-image: url("https://wallpaper-house.com/wallpaper-id-327400.php");
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
